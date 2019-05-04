@@ -7,13 +7,15 @@
   "license": "MIT",
   "scripts": {
     "compile": "truffle compile",
-    "test": "truffle test"
+    "test": "truffle test",
+    "migrate": "truffle migrate"
   },
   "devDependencies": {
     "bn-chai": "^1.0.1",
     "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
     "openzeppelin-solidity": "2.2.0",
-    "truffle": "5.0.15"
-  },
-  "dependencies": {}
+    "truffle": "5.0.15",
+    "truffle-hdwallet-provider-privkey": "^1.0.3"
+  }
 }
